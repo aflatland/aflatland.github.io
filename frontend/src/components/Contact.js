@@ -3,13 +3,13 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <section id="contact" className="relative">
+    <section id="contact" className="relative h-screen">
         <div className ="container px-10 py-10 mb-20">
 
             <div className = "flex justify-center py-5">
             <a
               href="./resume.png"
-              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
+              className="inline-flex text-white bg-yellow-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded text-lg">
               Resume
             </a>
             </div>
@@ -23,9 +23,9 @@ export default function Contact() {
                 <h2 className="title-font font-semibold tracking-widest text-xs">
                     EMAIL
                 </h2>
-                <a className="text-indigo-400 leading-relaxed">
+                <div className="leading-relaxed">
                 aef3@williams.edu
-                </a>
+                </div>
                 </div>
 
                 <div className = "px-5 text-center">

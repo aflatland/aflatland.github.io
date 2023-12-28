@@ -4,7 +4,7 @@ import { projects } from "../data";
 
 export default function Projects() {
   return (
-    <section id="projects" className="text-gray-400 bg-gray-900 body-font">
+    <section id="projects" className="text-gray-400 bg-gray-800 body-font">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
           <ScissorsIcon className="mx-auto inline-block w-10 mb-4" />
@@ -12,7 +12,7 @@ export default function Projects() {
             Projects
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            I use machine learning to study sea ice drift and my side quest is making a language learning GPT. Past projects are here too! Check them out below.
+            I use machine learning to study sea ice drift and my current side quest is making a language learning GPT. Past projects are here too! Check them out below.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
@@ -28,7 +28,7 @@ export default function Projects() {
                   src={project.image}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
+                  <h2 className="tracking-widest text-sm title-font font-medium text-yellow-400 mb-1">
                     {project.subtitle}
                   </h2>
                   <h1 className="title-font text-lg font-medium text-white mb-3">
