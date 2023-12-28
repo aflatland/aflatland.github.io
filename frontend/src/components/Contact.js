@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <section id="contact" className="relative h-screen">
+    <section id="contact" className="relative h-screen bg-gray-400">
         <div className ="container px-10 py-10 mb-20">
 
             <div className = "flex justify-center py-5">
@@ -17,7 +17,7 @@ export default function Contact() {
             <p className = "text-center">Feel free to reach out about anything.</p>
 
 
-            <div className = "py-5 text-gray-600 flex flex-row justify-center ">  
+            <div className = "py-5 text-gray-700 flex flex-row justify-center ">  
 
                 <div className = "text-center">
                 <h2 className="title-font font-semibold tracking-widest text-xs">
