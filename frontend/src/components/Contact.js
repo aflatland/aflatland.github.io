@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <section id="contact" className="relative h-screen bg-gray-400">
+    <section id="contact" className="relative h-screen bg-gray-100">
         <div className ="container px-10 py-10 mb-20">
 
             <div className = "flex justify-center py-5">
