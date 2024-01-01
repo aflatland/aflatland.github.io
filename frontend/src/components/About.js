@@ -31,7 +31,7 @@ export default function About() {
             </a>
           </div>
         </div>
-        <div className="lg:max-w-lg md:w-1/2 w-5/6">
+        <div className="lg:max-w-md md:w-1/2 w-1/2">
           <img
             className="rounded"
             alt="profile"

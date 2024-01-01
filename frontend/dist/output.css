@@ -1056,6 +1056,14 @@ video {
     max-width: 32rem;
   }
 
+  .lg\:max-w-32 {
+    max-width: 8rem;
+  }
+
+  .lg\:max-w-md {
+    max-width: 28rem;
+  }
+
   .lg\:flex-grow {
     flex-grow: 1;
   }

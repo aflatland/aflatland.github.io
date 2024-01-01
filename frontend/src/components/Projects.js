@@ -12,7 +12,7 @@ export default function Projects() {
             Projects
           </h1>
           <p className="lg:w-2/3 mx-auto text-base leading-relaxed">
-            I use machine learning to study sea ice drift and my current side quest is making a language learning GPT. Past projects are here too! Check them out below.
+            I use machine learning to study sea ice drift and my current side project is making a language learning GPT. Past projects are here too! Check them out below.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
