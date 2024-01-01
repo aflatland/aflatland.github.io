@@ -20,7 +20,7 @@ export const projects = [
     subtitle: "Presented at AGU 2023",
     description:
       "Using k-means clustering to determine years of most similar sea ice drift for small regions of ice. This is part of my ongoing senior thesis work. Presented at the American Geophysical Union conference in December 2023.",
-    image: "./drift_agu.png",
+    image: "./drift_agu_thumb.png",
     link: "./drift_agu.png",
   },
   {
@@ -28,7 +28,7 @@ export const projects = [
     subtitle: "Presented at IGS 2023",
     description:
       "Tracking ice through the arctic using satellite-derived remote sensing data. These drift tracks are then used to determine years of most similar sea ice drift. Presented at the International Glaciological Society International Symposium on Sea Ice in June 2023.",
-    image: "./drift_igs.png",
+    image: "./drift_igs_thumb.png",
     link: "drift_igs.png",
   },
   {
