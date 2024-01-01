@@ -12,7 +12,7 @@ export const projects = [
       subtitle: "GPT Language Tutor",
       description:
         "Converse with an AI-powered bot to learn a new language, and cement what you learn with flashcards. Implemented with Django/React.",
-      image: "./in-progress-icon.png",
+      image: "./in-progress-icon.png#",
       link: "#",
     },
   {
