@@ -8,12 +8,12 @@ export const projects = [
       link: "#",
     },
   {
-      title: "(coming soon!) Moby Chat",
+      title: "Mogi Chat",
       subtitle: "GPT Language Tutor",
       description:
-        "Converse with an AI-powered bot to learn a new language, and cement what you learn with flashcards. Implemented with Django/React.",
-      image: "./in-progress-icon.png#",
-      link: "#",
+        "Converse with an AI-powered bot to learn a new language, and cement what you learn with flashcards (coming soon). Implemented with Django/React.",
+      image: "./mogi.png",
+      link: "mogi.lol",
     },
   {
     title: "Sea Ice Drift",
