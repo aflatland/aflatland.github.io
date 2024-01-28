@@ -13,7 +13,7 @@ export const projects = [
       description:
         "Converse with an AI-powered bot to learn a new language, and cement what you learn with flashcards (coming soon). Implemented with Django/React.",
       image: "./mogi.png",
-      link: "mogi.lol",
+      link: "https://mogi.lol",
     },
   {
     title: "Sea Ice Drift",
