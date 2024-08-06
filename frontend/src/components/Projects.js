@@ -4,7 +4,7 @@ import { projects } from "../data";
 
 export default function Projects() {
   return (
-    <section id="projects" className="text-gray-400 bg-gray-800 body-font">
+    <section id="projects" className="text-gray-300 bg-gray-600 body-font">
       <div className="container mx-auto px-5 py-10 text-center lg:px-40">
         <div className="w-full mb-20">
           <ScissorsIcon className="w-10 mx-auto mb-4" />
@@ -12,7 +12,7 @@ export default function Projects() {
             Projects
           </h1>
           <p className="lg:w-2/3 mx-auto text-base leading-relaxed">
-            I use machine learning to study sea ice drift and my current side project is making a language learning GPT. Past projects are here too! Check them out below.
+            I am currently working on projects to learning more about machine learning and LLMs. For my senior thesis, I used clustering algorithms to study sea ice drift, and one of my favorite side project has been making a language learning tutor with OpenAI's API. My other projects are here too! Check them out below.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">

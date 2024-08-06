@@ -12,15 +12,15 @@ export default function About() {
             CONTACT
           </h1>
           <div className="flex space-x-4 divide-x-2 divide-gray-500">
-            <p>aef3@williams.edu</p>
+            <p>annabelflatland@gmail.com</p>
             <p className="pl-2">+1 518 512 7155</p>
           </div>
           <p className="mb-8 leading-relaxed mt-6">
-            I'm a computer science and geoscience major at Williams College. Here are some of the projects I've worked on.
+            I recently graduated from Williams College with a double major in Computer Science and Geosciences. Here are some of the projects I've worked on.
           </p>
           <div className="flex justify-center mb-6">
             <a
-              href="./resume.png"
+              href="./documents/resume.pdf"
               className="inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-lg">
               Resume
             </a>
@@ -35,7 +35,7 @@ export default function About() {
           <img
             className="rounded"
             alt="profile"
-            src="./norway_inkish.png"
+            src="./images/norway_profile.jpg"
           />
         </div>
       </div>
