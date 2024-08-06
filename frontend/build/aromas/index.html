@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+        
+        html {
+            height:100vh;
+        }
+        
+        body {
+            margin: auto;   
+            background-color: #f5f5f5;
+
+
+        }
+      /* Add styles for the parallax effect */
+
+        .scene0 {
+        background-color: black;
+ 
+                  position: relative;
+                  z-index:0;
+            
+            max-width: 650px;
+            margin: auto;
+            
+        }
+        
+        .scene0 img {
+            width: 100%;
+        }
+        
+      .scene1 {
+          margin: auto;
+          max-width: 650px;
+        background-color: black;
+        height: 100vh; /* full height of the viewport */
+          background-image: url('images/black.png'); 
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative; /* added to allow absolute positioning of the bottom image */
+        display: flex; /* added to allow center alignment of the inner div */
+        align-items: center; /* added to center the inner div vertically */
+        justify-content: center; /* added to center the inner div horizontally */
+      }
+
+      /* Add styles for the bottom image */
+      .bottom-image {
+        width: 100%; /* full width of the section */
+        position: absolute;
+        bottom: 0; /* position at the bottom of the section */
+        z-index: 3; /* updated to 0 to ensure the image is in the same layer as the blue section */
+      }
+
+      /* Add styles for the inner div containing the images */
+      .inner-div {
+        display: flex; /* added to allow stacking of the images */
+        flex-direction: column; /* added to stack the images vertically */
+        align-items: center; /* added to center the images horizontally */
+        position: sticky; /* added to make the inner div sticky */
+          z-index: 100;
+
+        
+
+        
+      }
+
+      /* Add styles for the images */
+      .inner-div img {
+        width: 60%;
+        z-index: 30;
+
+        
+
+      }
+        
+        .scene2 img {
+            
+
+            width: 30%;
+                
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+
+        }
+    
+
+
+      /* Add styles for the blue section */
+      .scene2 {
+          margin: auto;
+          max-width: 650px;
+        background-color: blue;
+        height: 150vh; /* full height of the viewport */
+        background-image: url('images/scene1backgroundbigflamingo.jpg'); /* added background image */
+        background-attachment: fixed; /* added to create a parallax effect */
+        background-position: center; /* added to center the background image */
+        background-repeat: no-repeat; /* added to prevent background image from repeating */
+        background-size: auto 100vh; /* added to cover the full background */
+        z-index: 5;
+        position: relative;
+      }
+        
+         /* Add styles for the jungle section */
+      .scene3 {
+          max-width: 650px;
+          margin: auto;
+        background-color: black;
+        height: 400vh;
+          position: relative;
+          z-index:2;
+          
+
+      }
+        
+        /*scene3*/
+.hero-sequence {
+    height: 400vh;
+    background-color: black;
+    max-width: 650px;
+    margin: auto;
+    position: relative;
+    z-index:2;
+}
+
+.sticky-element {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+    
+
+}
+
+.sequence-element {
+
+}
+        
+         canvas {
+
+          width: 500px;
+  
+
+
+      }
+
+        .scene4 {
+            margin: auto;
+            max-width: 650px;
+        background-color: green;
+                height: 200vh;
+                  position: relative;
+                  z-index:2;
+        }
+        
+        #scene4background {
+
+            height: 100vh;
+
+
+        }
+        
+        #scene4text {
+            width: 30%;
+                
+            position: absolute;
+            top: 20%;
+            left: 20%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        
+        #scene4nose {
+            width: 100%;
+            position: absolute;
+        bottom: 0; /* position at the bottom of the section */
+                
+
+            z-index: 20;
+
+
+            transform: translate(0%, 23%);
+        
+            text-align: center;
+        }
+        .scene5 {
+            margin: auto;
+            max-width: 650px;
+            background-color: blue;
+        height: 110vh; /* full height of the viewport */
+        background-image: url('images/oderifousoppisitionbackground.png'); /* added background image */
+        background-attachment: fixed; /* added to create a parallax effect */
+        background-position: center; /* added to center the background image */
+        background-repeat: no-repeat; /* added to prevent background image from repeating */
+        background-size: cover; /* added to cover the full background */
+        z-index: 5;
+        position: relative;
+        }
+        .scene5 img {
+            width: 100%;
+            position: relative;
+            z-index: 10;
+        }
+        
+        .scene6 {
+            margin: auto;
+            max-width: 650px;
+            height: 150vh;
+            position: relative;
+            z-index:1;
+            background-color: whitesmoke;
+        }
+        
+    </style>
+  </head>
+  <body>
+      <audio controls autoplay >
+  <source src="breathing_court.mp4" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+      
+            <audio controls autoplay >
+  <source src="news.m4a" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+      <div style = "background-color: 
+#1e1e1e"> <!--#ead4c5 -->
+       <div class = "scene0">
+           <img id = "cover" src = "images/cover.png">
+      </div>
+          </div>
+     
+
+      <div style = "background-color: #1e1e1e"> <!--#1e1e1e -->
+    <div class="scene1">
+        <div class="inner-div">
+          <img src="images/openingtext.png" alt="image1" id = "scene1">
+        </div>
+          </div>
+     <!-- <img src="images/clouds.webp" class="bottom-image">-->
+    </div>
+      
+      <div style = "background-color: #1e1e1e"><!--#5d7068 -->
+    <div class="scene2">
+            <img src="images/collectiveyech.png" alt="image2">
+    </div> 
+      </div>
+      
+      
+      <div style = "background-color: #1e1e1e">
+    <div class="hero-sequence">
+        <div class="sticky-element">
+                <div class="sequence-element">
+                    <canvas width="1920" height="1080"></canvas>
+                </div>
+        </div>
+    </div>
+      </div>
+      
+      <div style = "background-color: #1e1e1e"> <!--#bdbfb1-->
+      <div class = "scene4">
+          <div class = "sticky-element">
+                 <img src="images/swampbackground.jpg" alt="image4" id ="scene4background">
+                 <img src="images/denzienstext.png" id = "scene4text" alt="image2">
+                 
+              </div>
+          
+          <img src = "images/vapeoverlay.png" id = "scene4nose">
+      </div>
+      </div>
+      
+      <div style = "background-color: #1e1e1e"> <!--#515e6b -->
+      <div class = "scene5">
+      <img src="images/nose.png" alt="image4">
+      </div>
+      </div>
+      
+      <div style = "background-color: #f5f5f5">
+      <div class = "scene6"></div>
+      </div>
+      
+      
+
+
+
+  </body>
+</html>
+
+<script>
+    var blinked = false;
+    var intervalID = window.setInterval(blink, 200);
+    var intervalID2 = window.setInterval(toggleblink, Math.random() * 10000 + 400);
+
+function blink() {
+    if (blinked == true) {
+        var img = document.getElementById("cover").src = "images/blinkedcover.png"
+ blinked = false;
+    } else {
+        var img = document.getElementById("cover").src = "images/cover.png"
+    }
+
+}
+    
+    function toggleblink() {
+        blinked = true;
+        clearInterval(intervalID2);
+        intervalID2 = window.setInterval(toggleblink, Math.random() * 10000 + 2000);
+    }
+    
+    
+    const canvas = document.querySelector('canvas')
+    const ctx = canvas.getContext('2d')
+    const heroSequence = document.querySelector('.hero-sequence')
+    const images = []
+    const frameCount = 87
+
+    const prepareImages = () => {
+        for (var i = 0; i < frameCount; i++) {
+          const image = new Image()
+          image.src =
+  `images/scene3sequence/${i.toString().padStart(4, '0')}.jpg`
+          images.push(image)
+
+          if (i === 0) {
+            images[i].onload = () => drawImage(0)
+          }
+        }
+    }
+
+    const drawImage = frameIndex => {
+        ctx.drawImage(images[frameIndex], 0, 0)
+    }
+
+    prepareImages()
+
+    window.addEventListener('scroll', () => {
+        const scrollTop = document.documentElement.scrollTop - heroSequence.offsetTop
+        const maxScrollTop = heroSequence.scrollHeight - window.innerHeight
+        const scrollFraction = scrollTop / maxScrollTop
+        const frameIndex = Math.max(0, Math.min(frameCount - 1, Math.ceil(scrollFraction * frameCount)))
+
+        images[frameIndex].onload = () => drawImage(frameIndex)
+        requestAnimationFrame(() => drawImage(frameIndex))
+    })
+</script>
